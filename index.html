@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <section class="landing">
+    <section id="landing">
         <div class="row">
             <nav>
                 <a href="" class="nav__logo">
@@ -33,9 +33,10 @@
                         <p class="header__description">
                             Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.
                         </p>
-                        <input class="header__email--input" type="email" name="" id="">
-                            <a href="" class="signup"></a>
-                        </input>
+                        <div class="header__email--container">
+                            <input class="header__email--input" type="email" name="" id="" placeholder="Your E-mail Address"></input>
+                            <button href="" class="header__email--get-started signup">Get Started</button>
+                        </div>
                         <div class="header__customers">
                             <p class="header__customers--p">OUR TRUSTED CUSTOMERS</p>
                             <img src="./assets/customers-logo.png" alt="" class="header__left--img">
@@ -46,6 +47,61 @@
                     </div>
                 </div>
             </header>
+        </div>
+    </section>
+    <section id="features">
+        <div class="features__container">
+            <div class="row">
+                <div class="features__information--container">
+                    <span class="features__label">FEATURES</span>
+                    <h2 class="features__title">We have Amazing <span class="purple">Service.</span></h2>
+                    <p class="features__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="features__services">
+                    <div class="service">
+                        <img src="./assets/shield.svg" alt="" class="service__logo">
+                        <div class="service__text">
+                            <span class="service__title">Secure</span>
+                            <p class="service__description">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <img src="./assets/shield.svg" alt="" class="service__logo">
+                        <div class="service__text">
+                            <span class="service__title">Secure</span>
+                            <p class="service__description">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <img src="./assets/shield.svg" alt="" class="service__logo">
+                        <div class="service__text">
+                            <span class="service__title">Secure</span>
+                            <p class="service__description">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <img src="./assets/shield.svg" alt="" class="service__logo">
+                        <div class="service__text">
+                            <span class="service__title">Secure</span>
+                            <p class="service__description">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <img src="./assets/shield.svg" alt="" class="service__logo">
+                        <div class="service__text">
+                            <span class="service__title">Secure</span>
+                            <p class="service__description">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <img src="./assets/shield.svg" alt="" class="service__logo">
+                        <div class="service__text">
+                            <span class="service__title">Secure</span>
+                            <p class="service__description">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </body>
