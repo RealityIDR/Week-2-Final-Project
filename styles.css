@@ -426,17 +426,23 @@ PRICING
 .pricing__description {
     max-width: 36rem;
     margin: 16px 0 0;
-    text-align: center; 
 }
 
 .pricing__plans--container {
     display: flex;
+    margin-top: 64px;
+}
+
+.pricing__plan {
+    width: calc(100% / 3);
 }
 
 .pricing__plan--pricing {
     display: flex;
     flex-direction: column;
     text-align: center;
+    border: 2px solid rgb(226, 232, 240);
+    padding: 32px 0;
 }
 
 .pricing__plan--title {
@@ -449,6 +455,7 @@ PRICING
     font-size: 48px;
     color: #1A202C;
     font-weight: 700;
+    margin: 0.25rem 0 0.25rem 0;
 }
 
 .pricing__plan--duration {
@@ -456,4 +463,101 @@ PRICING
     color: #A0AEC0;
     font-weight: 700;
     letter-spacing: 0.1em;
+}
+
+.pricing__plan--information {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(226, 232, 240);
+    border-top: none;
+    text-align: center;
+    padding: 32px;
+}
+
+.plan__users {
+    font-size: 20px;
+    color: #1A202C;
+    font-weight: 700;
+}
+
+.plan__features {
+    font-size: 16px;
+    color: #718096;
+    font-weight: 500;
+    margin: 20px 0 0;
+}
+
+.plan__buy-now--container {
+    display: flex;
+    padding: 32px 64px;
+    border: 2px solid rgb(226, 232, 240);
+    border-top: none;
+    justify-content: center;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.plan__buy-now {
+    padding: 16px 32px;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+}
+
+.plan__margin {
+    margin: 0 48px;
+}
+
+.plan__top--outline {
+    width: 100%;
+    height: 8px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.plan__outline--1 {
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.plan__full-color {
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.plan__outline--2 {
+    background-color: red;
+}
+
+.plan__outline--3 {
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.fontcolor__alt {
+    color: #F7FAFC;
+}
+
+.fontcolor__alt--2 {
+    color: #E2E8F0;
+}
+
+.border__color--alt {
+    border-color: rgb(226, 232, 240);
+}
+
+.plan__margin--alt {
+    padding-top: 40px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border: none;
+}
+
+.plan__information--alt {
+    border-top: 2px solid rgb(110, 164, 234);
+    border-bottom: 2px solid rgb(110, 164, 234);
+    border-left: none;
+    border-right: none;
+}
+
+.plan__buy-now--alt {
+    border-left: none;
+    border-right: none;
 }
