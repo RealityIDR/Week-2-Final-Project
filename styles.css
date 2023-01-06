@@ -425,7 +425,8 @@ PRICING
 
 .pricing__description {
     max-width: 36rem;
-    margin: 16px 0 0;
+    margin: 0 auto;
+    margin-top: 16px;
 }
 
 .pricing__plans--container {
@@ -560,4 +561,74 @@ PRICING
 .plan__buy-now--alt {
     border-left: none;
     border-right: none;
+}
+
+/* 
+
+FOOTER 
+
+*/
+
+footer {
+    margin-top: 96px;
+    background-color: rgb(100, 21, 255);
+    color: rgb(247, 250, 252);
+    display: flex;
+    flex-direction: column;
+}
+
+.links__container {
+    display: flex;
+    margin: 96px 0 48px;
+    justify-content: space-between;
+}
+
+.link__stack {
+    display: flex;
+    flex-direction: column;
+}
+
+.link__stack--title {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #F7FAFC;
+}
+
+.links__link {
+    color: rgb(247, 250, 252);
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.footer__seperator {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(247, 250, 252, 0.171);
+    margin-bottom: 48px;
+}
+
+.footer__information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 96px;
+}
+
+.footerlogo__alt {
+    color: #6415FF;
+    background-color: #FFF;
+    border-color: #FFF;
+}
+
+.treact__alt {
+    color: #FFF;
+}
+
+.social__link {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 360px;
 }
