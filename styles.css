@@ -32,6 +32,7 @@ a {
     font-size: 48px;
     font-weight: 900;
     letter-spacing: 0.025em;
+    color: #243E63;
 }
 
 .section__description {
@@ -290,6 +291,10 @@ DEVELOPMENT
     font-size: 14px;
     font-weight: 700;
 }
+
+#landing__img--alt {
+    display: none;
+}   
 
 .development__landing-img {
     width: 50%;
@@ -637,7 +642,7 @@ footer {
     border-radius: 360px;
 }
 
-/* SMALL PHONES, TABLETS, LRGE SMARTPHONES */
+/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
 
 @media (max-width: 768px) {
     .nav__links {
@@ -667,13 +672,35 @@ footer {
     .header__title {
         font-size: 30px;
     }
+    
+    .header__email--container {
+        justify-content: center;
+    }
+
+    .header__email--get-started {
+        right: 31px;
+    }
+
+    .section__label {
+        text-align: center;
+    }
 
     .section__title {
         text-align: center;
+        font-size: 30px;
+    }
+    
+    .section__description {
+        text-align: center;
+        font-size: 14px;
     }
 
     .btn__menu {
         display: block;
+    }
+
+    .features__title {
+        font-size: 36px;
     }
 
     .features__services {
@@ -686,4 +713,36 @@ footer {
         width: 100%;
         max-width: 65%;
     }
+
+    .development__container {
+        flex-direction: column;
+    }
+
+    .development__landing-img {
+        display: none;
+    }
+
+    #landing__img--alt {
+        display: flex;
+        width: 100%;
+        margin: 0;
+    }
+
+    .development__information {
+        width: 100%;
+        margin-top: 64px;
+    }
+
+    .development__learn-more {
+        margin: 32px auto;
+        margin-bottom: 0;
+    }
+
+    .steps__container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 592px) {
+
 }
